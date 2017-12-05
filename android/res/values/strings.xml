@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IFControl</string>
+    <string name="title_activity_splash">IFControl</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_cadastro">Cadastro</string>
+    <string name="title_activity_home">IFControl</string>
+    <string name="title_activity_sala">SalaActivity</string>
+    <string name="title_activity_logs">Logs</string>
+    <string name="title_activity_alarme">Hora Ativação/Desativação</string>
+</resources>

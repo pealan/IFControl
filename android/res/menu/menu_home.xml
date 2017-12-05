@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pealan.ifcontrol.activities.HomeActivity">
+
+    <item
+        android:id="@+id/action_config"
+        android:orderInCategory="150"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="Configuracoes">
+
+        <menu>
+            <item
+                android:id="@+id/item_sair"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_autorenew_white_24dp"
+        android:title="Atualizar"/>
+
+    <item
+        android:id="@+id/action_logs"
+        android:orderInCategory="50"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_assignment_white_24dp"
+        android:title="Logs"/>
+</menu>
