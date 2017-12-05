@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="IFControlClient.jnlp">
+  <information>
+    <title>IFControlClient</title>
+    <vendor>IFControl</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="IFControlClient.jar" size="592721" download="eager" />
+    <jar href="lib/controlsfx.jar" size="856539" download="eager" />
+    <jar href="lib/gson-2.3.1.jar" size="210856" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="IFControlClient" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="view.MainApp"  name="IFControlClient" />
+  <update check="always"/>
+</jnlp>
