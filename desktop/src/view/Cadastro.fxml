@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" snapToPixel="false" stylesheets="@CadastroLogin.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.CadastroController">
+   <children>
+      <TextField fx:id="txfSIAP" layoutX="421.0" layoutY="261.0" prefHeight="25.0" prefWidth="183.0" promptText="SIAP">
+         <effect>
+            <DropShadow color="#00000066" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <TextField fx:id="txfNome" layoutX="421.0" layoutY="298.0" prefHeight="25.0" prefWidth="183.0" promptText="Nome">
+         <effect>
+            <DropShadow color="#00000066" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <TextField fx:id="txfLogin" layoutX="421.0" layoutY="331.0" prefHeight="25.0" prefWidth="183.0" promptText="Login">
+         <effect>
+            <DropShadow color="#00000066" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <PasswordField fx:id="pwfSenha" layoutX="421.0" layoutY="369.0" prefHeight="25.0" prefWidth="183.0" promptText="Senha">
+         <effect>
+            <DropShadow color="#00000066" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></PasswordField>
+      <PasswordField fx:id="pwfSenha1" layoutX="421.0" layoutY="404.0" prefHeight="25.0" prefWidth="183.0" promptText="Confirme sua senha">
+         <effect>
+            <DropShadow color="#00000066" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </PasswordField>
+      <Button fx:id="bttCadastrar" alignment="CENTER" blendMode="MULTIPLY" contentDisplay="RIGHT" layoutX="421.0" layoutY="443.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#cadastrar" prefHeight="31.0" prefWidth="183.0" text="Cadastrar" textFill="#030303">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button fx:id="bttCancelar" alignment="CENTER" blendMode="MULTIPLY" contentDisplay="RIGHT" layoutX="421.0" layoutY="483.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#cancelar" prefHeight="31.0" prefWidth="183.0" text="Cancelar" textFill="#030303">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
