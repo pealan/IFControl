@@ -5,8 +5,8 @@ Este protótipo foi feito entre março de 2015 e novembro de 2015 como parte de 
 
 Detalhes de implementação e informações sobre todas as pessoas envolvidas são encontrados em TCC.pdf
 
-_IFControl is a prototype of a mobile and desktop app of a building automation solution for the Instituto Federal de Educação, Ciência e Tecnologia do Amazonas Campus Manaus-Centro, Brazil. 
+_IFControl is a prototype of a mobile and desktop app of a building automation solution for the Instituto Federal de Educação, Ciência e Tecnologia do Amazonas Campus Manaus-Centro, Brazil._
 
-This prototype was made between March 2015 and November 2015 as part of a final paper discussing the viability and benefits of building automation on schools across the country. This project was presented at the Feira Norte do Estudante between September 23th 2015 and September 25th 2015 and also participated at the I Congresso de Ciência, Educação e Pesquisa Tecnológica do IFAM in the science and culture category.
+_This prototype was made between March 2015 and November 2015 as part of a final paper discussing the viability and benefits of building automation on schools across the country. This project was presented at the Feira Norte do Estudante between September 23th 2015 and September 25th 2015 and also participated at the I Congresso de Ciência, Educação e Pesquisa Tecnológica do IFAM in the science and culture category._
 
-Details of implementation and information about all involved people are found in TCC.pdf_
+_Details of implementation and information about all involved people are found in TCC.pdf_
