@@ -1,0 +1,33 @@
+ON/OFF: C1AA09F6
+
+ZOOM IN: C1AA11EE
+ZOOM OUT:C1AA916E
+
+volume IN:C1AA19E6
+volume OUT:C1AA9966
+
+PAGE IN:C1AA619E
+PAGE OUT:C1AAE11E
+
+FREEZE:C1AA49B6
+
+MENU:C1AA59A6
+
+if ( t == 20 ) {
+        enviar(0xC1AAE11E);
+      }
+      else if ( t == 21 ) {
+         enviar(0xC1AA916E);
+      }
+      else if ( t == 22 ) {
+        enviar(0xC1AA19E6);
+      }
+      else if ( t == 23 ) {
+        enviar(0xC1AA9966);
+      }
+      else if ( t == 24 ) {
+        enviar(0xC1AA619E);
+      }
+      else if ( t == 25 ) {
+        enviar(0xC1AAE11E);
+      }
